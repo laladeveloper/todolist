@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO , {
 })
 .then(() => {
   app.listen(3000, function() {
-    console.log("Server started on port 3000");
+    console.log("Server started Successfully after connecting to the server");
   });
 })
 .catch((err) => {
